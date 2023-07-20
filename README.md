@@ -1,4 +1,7 @@
 # Starter_pack29 Challenge
+## Day2
+1.MinMaxExample
+ให้เขียนโปรแกรม Java รับค่า Input เลขสามค่า เเละเเสดงเลขที่น้อยที่สุดเเละมากที่สุด
 ## Day3
 1.PrimeNumbers
 ให้เขียนโปรแกรม Java รับค่า Input เป็นตัวเลขเเละใช้ loop เพื่อหาเลขเเละพิมพ์ตัวเลขที่เป็นจำนวนเฉพาะ(Prime numbers)
