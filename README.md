@@ -1,4 +1,4 @@
-# Starter_pack29 Challenge
+# Starter_pack29 Challenge ชอบกินหมูกรอบ
 ## Day2
 1.MinMaxExample
 ให้เขียนโปรแกรม Java รับค่า Input เลขสามค่า เเละเเสดงเลขที่น้อยที่สุดเเละมากที่สุด
