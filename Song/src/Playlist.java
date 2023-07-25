@@ -45,19 +45,25 @@ public class Playlist {
     }
     
     public void removeSong(String title) {
+        boolean found = false;
         for (int i = 0; i < songCount; i++) {
             if (songs[i].getTitle().equals(title)) {
                 // Shift all songs down
+                found = true;
                 for (int j = i; j < songCount - 1; j++) {
                     songs[j] = songs[j + 1];
                 }
                 // null out the last song
                 songs[songCount - 1] = null;
                 songCount--;
+                System.out.println("Remove " + name + " succeed.");
                 return;
             }
         }
-        System.out.println("Song not found in the playlist.");
+         if (!found) {
+            System.out.println("Remove " + name + " not found.");
+        }
+       
     }
 
     
